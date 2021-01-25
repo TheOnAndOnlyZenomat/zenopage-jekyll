@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html land="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sclae+1.0">
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    {% feed_meta %}
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+
+  <header>
+    <div class="container">
+      <h1>{{ page.header }}</h1>
+      <p>{{ page.description }}
+
+      {% include navigation.html %}
+    </div>
+  </header>
+
+  <body>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
+
+  <footer>
+    <div class="container">
+      {% include footer.html %}
+    </div>
+  </footer>
+</html>

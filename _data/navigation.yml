@@ -1,0 +1,13 @@
+- name: Home
+  link: /
+
+- name: Blog
+  link: /blog.html
+
+- name: Github
+  link: https://github.com/TheOnAndOnlyZenomat
+
+- name: Mastodon
+
+- name: Feed
+  link: /feed.xml
