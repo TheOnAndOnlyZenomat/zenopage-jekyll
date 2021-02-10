@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Example content
-permalink: /example
+permalink: /example/
 ---
 
 

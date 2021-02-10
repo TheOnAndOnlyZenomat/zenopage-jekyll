@@ -3,7 +3,7 @@ layout: default
 title: Blog
 header: Blog
 description: "This is my personal blog"
-permalink: /blog
+permalink: /blog/
 ---
 
 {% for post in site.posts %}
