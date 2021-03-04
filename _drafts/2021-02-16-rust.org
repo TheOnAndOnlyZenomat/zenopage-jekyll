@@ -1,0 +1,35 @@
+#+begin_export html
+---
+layout: posts
+title: My little adventure with Rust
+author: Zeno
+excerpt: My journey towards Rust
+tags: ["Coding", "Rust", "Tech"]
+---
+#+end_export
+
+Rust. The meme programing language. Half of the people love it and want to rewrite everything in it, the other half does not like it. And I am somewhere in the middle.
+
+Of course it is not that black and white. It is just, that those are the loudest voices, and those are all you hear. But it is true, that I am somewhere in the middle.
+
+As far as programing languages go, I know Python and written some small projects in it, dabbled a bit with C and C#, and know some Bash scripting. But that's about it. But I really love coding. I have fun doing it. Being able to create stuff from almost nothing; making the computer do exactly (at least in theorie^^) what you want. This tickles something in me.
+
+Python, because it is a good beginner language and I had fun there, and C/C#, because it is able to do more low level things and is more present in gamedev than Python. And I wanted to do more low level stuff and maybe some gamedev. 
+
+Turns out C is hard. With all the manual stuff like memory control and types and so on. It was hard to grasp those concepts for a (not much) younger me. Especially, because I did not really had an idea for a project, and therefore not too much motivation nor practice with the language. So my C journey found a rather quick end.
+
+That was it for my coding career for some time, except some bash scripting, and I started to do a but more sysops stuff with my server and a bit more gaming with friends.
+
+But recently one could hear a lot from Rust and I asked myself, what is this Rust. So I set out to google it. I read some articles, on why one should use Rust and looked at there website.
+
+What do I see there?
+
+They have an official Rust book, where they introduce you to the language and guide you through the concepts. I've also recently started to read more again, so I set out to take a look at this book, and I was captured. I do not know what exactly it was. I would guess a mix from the good guidance, the power of the lower level, while also being a good language for other tasks.
+
+Maybe if there was such a good documentation/book for C I would have stuck with it, but maybe I have just missed it. But I found the Rust book, so here we are.
+
+So I have begun to read the book and after a few pages decided I would setup a Rust environment on my PC. Downloaded rustup, run it and let's go.
+
+At this time I wanted to play a clicker game, why, I do not know, which is not bloated, and somehow came to the conclusion to write one myself with Rust, because why not.
+
+So this is how I came to write my own little game in Rust. I will talk about the game on this blog in the future, because I really have fun writing it and doing everything involved with it.

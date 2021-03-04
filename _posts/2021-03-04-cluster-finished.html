@@ -1,0 +1,52 @@
+---
+layout: posts
+title: Finished Cluster - What now?
+author: Zeno
+excerpt: I finished my first big-ish project and here is how it went
+tags: ["Coding", "Rust", "Tech"]
+---
+
+<p>
+I know, I know. I haven't done anything is 3 weeks, shame on me.
+</p>
+
+<p>
+But I had reasons for that.
+</p>
+
+<p>
+First one is, that I had pre-exams at school, so I had to take care of that. Basically a nearly 6 hour test in German, 4 and a half in Math and 5 hours in English.
+</p>
+
+<p>
+Second one is, that I worked on my first bigger Rust project. I already mentioned it briefly in the last blog post, my clicker game called Cluster.
+</p>
+
+<p>
+Developing it was a lot of fun and I learned a lot on the way, got to know Rust. So it basically fulfilled it's job perfectly.
+You can find the git repo <a href="https://github.com/TheOnAndOnlyZenomat/cluster">here</a>. I have everything explained there in the README.
+</p>
+
+<p>
+One funny anecdote I want to tell you is this one:
+</p>
+
+<p>
+I wanted to add so and so much points per second, depending on the items the player bought, and I "solved" this, by putting the whole thread to sleep for one second. As you probably can already imagine, this raised some problems. The biggest one, I could only read the input of the player once per second, which sucks super hard. And I had no idea on how to fix that. I already was thinking about multi-threading and such, totally over complicating stuff. 
+</p>
+
+<p>
+But LevitatingBuisnessMan to the rescue. He is a guy, I do not even remember how I got to know him, to whom I talk maybe once or twice a year. We talk about the coding projects we are currently working on and share a bit of knowledge and other stuff.
+</p>
+
+<p>
+So I show him, what I am working on and he mentioned, that I should not put the whole thread to sleep, but could just use <code>Systemtime.now().elapsed</code> to measure the time since the last execute of the add function. So I implemented that and the problem was solved. Without him I probably would have never found this function and over engineered the whole thing unnecessarily. He also made a PR to the project to implement a better save system, which was on my list anyway, so that was super nice.
+</p>
+
+<p>
+What is the point, I do not know. Maybe just that one should not be afraid to talk with people about their projects, even if they are tiny and you are just a beginner and the other guy is programming in this language for 10 years. Everybody was a beginner once and the majority of people is nice and willing to help, show you stuff, which is super useful, that you would have maybe never found.
+</p>
+
+<p>
+It was super fun building this small project and super useful as a learning project. Seeing this whole thing build up from nothing was a very rewarding feeling and brought me back the joy at coding. So yeah, it is totally worth to build you own (small) (side-)projects. 
+</p>
