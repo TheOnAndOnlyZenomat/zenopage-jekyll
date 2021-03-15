@@ -1,0 +1,14 @@
+---
+layout: default
+title: Zeno's Bookmarks
+header: Zeno's Bookmarks
+description: Here you can find links to sites, that I find interesting and/or share worthy.
+permalink: /bookmarks/
+---
+
+{% for item in site.data.bookmarks %}
+	<h3>{{ item.title }}</h3>
+	link: <a href="{{ item.link }}">{{ item.link}}</a>
+	<blockquote>{{ item.comment }}</blockquote>
+	<br>
+{% endfor %}
