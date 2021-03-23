@@ -2,3 +2,6 @@
 
 - name: Contact Me
   link: "mailto: adrsrv@protonmail.com"
+
+- name: PGP
+  link: "./public.key"
